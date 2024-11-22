@@ -9,12 +9,12 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = getenv("API_ID")
-API_HASH = getenv("API_HASH")
+API_ID = getenv("API_ID", "28731656")
+API_HASH = getenv("API_HASH", "22f05593e2f2f365ebc1fcc03446a8c8")
 
-EVAL = map(int, getenv("EVAL", "11111111 111111111").split())
+EVAL = map(int, getenv("EVAL", "11111111 6301302395").split())
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7786716075:AAGqhLPXsaraHqLAh8qV1glR9zYEIYDuFhQ")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","GOD_MADARA_SHELBY")
 # --------------------------------------------------------
@@ -28,7 +28,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "KOKU ASS")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://harshmanjhi1801:webapp@cluster0.xxwc4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -40,7 +40,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = getenv("LOGGER_ID", -1002237336934)
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = getenv("OWNER_ID", 7427691214)
+OWNER_ID = getenv("OWNER_ID", 6301302395)
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -116,7 +116,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "AQG0VS8AO1RsAQXuKGamQBy0OohgEbtqe2PBTsSFSkzPBRln61AKlxE9mIX09w7LRXeHTHrdPTsc0Ft0oTbDDNu4UCQvSb2PakoDTYwmycN5b6ylsU34exlqFtI5B8HqzUwnAG2oQCz_4W32TLLpCOt_F3N27gcROpdps94vCzQB6QT0IqKhEJ4D5f-B2LkShB9_ifz5gOZ1Nxo-GJmp6n3klqEdlysrMSap0sOoQVB56jWzOqVVtVex9IXYSW7ag6AVigfTAPx2JkTL15OtoODZpy3YEx3SBaLnKb5mG96VlQPSwRMleAJwZOQsaCoLjjRu6n5k2HTkb6eYfAlO1AmgAAAAGloin3AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
